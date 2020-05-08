@@ -9,7 +9,7 @@ LEFT JOIN salaries AS s
 --    hired in 1986.
 SELECT e.first_name, e.last_name, e.hire_date
 FROM employees AS e
-WHERE hire_date LIKE '%/86';
+WHERE hire_date LIKE '%/1986';
 
 -- 3) manager of each department: department number, department name, 
 -- the manager's employee number, last name, first name.
